@@ -1,0 +1,21 @@
+.container {
+	width: 1000px;
+	margin-left: 250px;
+}
+
+.title {
+    margin-left: 625px;	
+}
+
+body { 
+  background-color: #D8D8D8;
+}
+
+img { 
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+ }
+
+
