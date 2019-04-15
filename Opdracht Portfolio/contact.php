@@ -26,12 +26,12 @@
             <a href="javascript:void(0)" class="dropbtn">OVER MIJZELF &#x2BC6;</a>
               <div class="dropdown-content">
               <a href="Over_mij.html">OVER MIJZELF</a>
-              <a href="Opleiding.html">OPLEIDINGEN</a>
+              <a href="Opleiding.html">OPLEIDING</a>
             </div>
         </li>
 
         <li><a href="Photo_Gallery.html">PHOTO GALLERY</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="#">CONTACT</a></li>
       </ul>
   </nav>
   </div> 
@@ -60,38 +60,41 @@
 </div>
 </div>
 <div class="blackbar">
-    <div class="space"><h1 class="intro_tekst">Opleidingen</h1>
+    <div class="space"><h1 class="intro_tekst">Over mijzelf</h1>
     </div>
 </div>
 
 <ul class="breadcrumb">
   <li><a href="portfolio.html">Home</a></li>
-  <li><a href="Opleiding.html">Opleidingen</a></li>
+  <li><a href="Over_mij.html">Over mijzelf</a></li>
 </ul>
 
-<div class="wellantcollege">
-  <img class="foto" src="wellantcollege.jpg" alt="foto">
-  <h2><b> Wellant College Ottoland</b> </h2><br>
+<div class="container">
+  <form action="action_page.php">
 
-  <div class="wellant1"> 
-  <p>
-    Mijn middelbare school heb ik afgerond op het Wellant college in Ottoland, Hier heb ik GL gedaan en in 2018 mijn diploma gehaald. 
-  </p>
-  </div>
-</div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<div class="davinci">
-  <img class="foto" src="davinci.jpg" alt="foto">
-  <h2><b> Davinci College Gorinchem </b> </h2><br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-  <div class="davinci1"> 
-  <p>
-    Na mijn middelbare school heb ik gekozen voor de opleiding Applicatie ontwikkelaar niveau 4, Deze ben ik gaan doen op het Davinci in Gorinchem waar ik tot op heden aan het studeren ben.
-  </p>
-  </div>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
 
   <footer><p> &copy; Matthias Erkelens , 2019</p></footer>
 </div>
 </body>
 </html>
+
