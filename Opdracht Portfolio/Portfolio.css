@@ -123,14 +123,14 @@ li.dropdown {
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 270px;
-    width: 1000px;
-    height:55px;
-    background-color:#222931;
-}
-.intro_tekst{
+    width: 1000px;.intro_tekst{
     margin-left: 400px;
     color:white;
 }
+    height:55px;
+    background-color:#222931;
+}
+
 .intro_tekst_photo{
     margin-left: 370px;
     color:white;
@@ -161,6 +161,11 @@ li.dropdown {
     text-decoration: underline;
     
  }
+ .over_mij h2{ 
+    margin-top: 90px;
+    margin-left: 900px;
+    text-decoration: underline;
+  }
  .tekst1{
 
     float:left;
