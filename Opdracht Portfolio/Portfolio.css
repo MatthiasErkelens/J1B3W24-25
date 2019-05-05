@@ -1,22 +1,25 @@
-
+body{ 
+    margin-left:70px;
+ }
 .background{
     background-image: url("background.jpg");
     z-index: 2;
 }
 .logo{ 
-    padding-left: 270px;
+    width: 280px;
+    padding-left: auto;
     padding-bottom: 0px;
 }
 .carousel-inner img {
-    width: 1000px;
+    width: 100%;
     height: 70%;
 }
 
 ul.breadcrumb {
   list-style: none;
-  margin-left: 270px;
+  margin-left: auto;
   padding-top: 10px;
-  width: 242px;
+  width: auto;
   height: 0px;
   background-image: url("background.jpg");
 }
@@ -46,14 +49,14 @@ ul.breadcrumb li a:hover {
   background-color: #222931;
   opacity:none;
 }
-
-nav {
-    position: absolute; 
+nav{
+  margin-bottom: 0px;
 }
 nav ul{
-    width: 1000px;
+    width: 100%;
     height: 55px;
-    margin-left: 270px;
+    margin-bottom:0px;
+    margin-left: auto;
     background-color: #222931;
     color:white;
     display: inline-block;
@@ -90,7 +93,7 @@ li.dropdown {
     display: none;
     position: absolute;
     background-color: #222931 ;
-    min-width: 160px;
+    min-width: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     color:white;
@@ -115,39 +118,42 @@ li.dropdown {
 
 .title{ 
     padding-top: 20px;
-    margin-left: 650px;
+    float: center;
     text-decoration: underline;
  }
 
  .blackbar{
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 270px;
-    width: 1000px;.intro_tekst{
-    margin-left: 400px;
+    margin-left: auto;
+    width: 100%;
+    margin-left: auto;
     color:white;
 }
+.intro_tekst{
     height:55px;
     background-color:#222931;
+    text-align:center;
+
 }
 
 .intro_tekst_photo{
-    margin-left: 370px;
+    margin-left: auto;
     color:white;
 }
  .carousel-inner {
-    margin-left: 17px;
-    margin-top: 52px;
+    margin-left: auto;
+    margin-top: 0px;
  }
 
  .container_slide {
-    margin-left: 253px;
+    margin-left: auto;
     margin-bottom: 0px;
  }
  .introductie img {
-    width: 400px;
-    height: 275px;
-    margin-left: 263px;
+    width: 280px;
+    height: 215px;
+    margin-left: auto;
     margin-top: 0px;
     margin-right: 100px;
     padding: 10px;
@@ -157,13 +163,13 @@ li.dropdown {
 }
 .introductie h2{ 
     margin-top: 90px;
-    margin-left: 900px;
+    margin-left: auto;
     text-decoration: underline;
     
  }
  .over_mij h2{ 
     margin-top: 90px;
-    margin-left: 900px;
+    margin-left: auto;
     text-decoration: underline;
   }
  .tekst1{
@@ -172,65 +178,61 @@ li.dropdown {
     
  }
 .tekst2{ 
-    margin-left: 1000px;
+    margin-left: auto;
     
  }
 
  .mijn_werk h2{
-  margin-left: 270px; 
+  margin-left: auto; 
   text-decoration: underline; 
  }
 
  .mijn_werk p{
-    margin-left: 270px;
-    width: 1000px; 
+    margin-left: auto;
+    width: 100%; 
  }
 
  .mijn_skills h2{
-  margin-left: 270px; 
+  margin-left: auto; 
   text-decoration: underline; 
  }
 
  .mijn_skills p{
-    margin-left: 270px;
-    width: 1000px; 
+    margin-left: auto;
+    width: 100%; 
  }
 
  footer{
-    width: 1000px;
+    width: 100%;
     margin-top: 50px;
-    margin-left: 270px;
-    height: 55px;
+    margin-left: auto;
+    height: 25px;
     background-color: #222931; 
     color: white;
     padding-bottom: 20px;
 }
 footer>p{
-    float: left;
-    margin-right: 200px;
-    margin-left:100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
     margin-top: 25px;
 }
 
 .photo_container {
-    width: 1000px;
-    margin-left: 250px;
+    width: 100%;
 }
 
 .photo_container img{ 
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  width:100%;
+  
  }
 
 span#Over_mij-button {
     margin-top: 40px;
     font-size-top: 12px;
     background-color: #222931 ;
-    margin-left: 0px;
+    margin-left: auto;
     padding: 15px;
-    font-weight: 600;
     color: white;
     
 }
@@ -247,11 +249,11 @@ span#Over_mij-button:hover {
     border: 1px solid #ddd;
     border-radius: 6px;
     border-color: black;
-    width: 400px;
+    width: 280px;
     height: 275px;
-    margin-left: 263px;
+    margin-left: auto;
     margin-top: 0px;
-    margin-right: 100px;
+    margin-right: auto;
     padding: 10px;
     border-radius: 60px;
     float: left;
@@ -259,13 +261,13 @@ span#Over_mij-button:hover {
 }
 .wellantcollege h2{ 
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 20px;
     text-decoration: underline;
     
 }
 .wellant1 {
 
-    width: 1270px;
+    width: 100%;
 }
 
 .davinci{
@@ -276,11 +278,11 @@ span#Over_mij-button:hover {
     border-radius: 6px;
     border-color: black;
     border-style: ridge;
-    width: 400px;
+    width: 280px;
     height: 275px;
-    margin-left: 263px;
+    margin-left: auto;
     margin-top: 0px;
-    margin-right: 100px;
+    margin-right: auto;
     padding: 10px;
     border-radius: 60px;
     float: left;
@@ -289,13 +291,13 @@ span#Over_mij-button:hover {
 }
 .davinci h2{ 
     margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 20px;
     text-decoration: underline;
     
  }
  .davinci1 {
 
-    width: 1270px;
+    width: 100%;
  }
 
  input[type=text], select, textarea {
@@ -328,17 +330,16 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  width: 1000px;
-  margin-left: 270px;
+  width: 100%;
+  margin-left: auto;
   margin-top: 50px;
 }
 .photo_container{ 
-margin-left: 300px;
 margin-top: 50px;
  }
 .photo_container img { 
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    height: auto;
     position: center;
     padding: 0px;
     margin-bottom: 0px;
@@ -346,19 +347,19 @@ margin-top: 50px;
     margin-left: 0px;
 }
 .over_mij p { 
-width: 1000px;
-margin-left: 280px;
+width: 100%;
+margin-left: auto;
 margin-top: 10px;
  }
 .over_mij h2 { 
-width: 1000px;
-margin-left: 280px;
+width: 100%;
+margin-left: auto;
 margin-top: 50px;
  }
 
-@media screen and (min-width: 64em) { ------------------------------------------------------------
+@media screen and (min-width: 64em) {
 
-.background{
+ .background{
     background-image: url("background.jpg");
     z-index: 2;
 }
@@ -487,7 +488,7 @@ li.dropdown {
     background-color:#222931;
 }
 .intro_tekst{
-    margin-left: 400px;
+    margin-left: 30px;
     color:white;
 }
 .intro_tekst_photo{
@@ -652,61 +653,27 @@ span#Over_mij-button:hover {
     width: 1270px;
  }
 
- input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
-}
-
-
-input[type=submit] {
-  background-color:#222931 ;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-
-input[type=submit]:hover {
-  background-color: #E4E3E3;
-}
-
-.contact-formulier {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 1000px;
-  margin-left: 270px;
-  margin-top: 50px;
-}
-.photo_container{ 
-margin-left: 300px;
-margin-top: 50px;
- }
-.photo_container img { 
-    width: 300px;
-    height: 150px;
+ .photo_container img { 
+    width: 800px;
+    height: 400px;
     position: center;
     padding: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 0px;
-}
+    margin-left: 120px;
+  }
+
 .over_mij p { 
-width: 1000px;
-margin-left: 280px;
-margin-top: 10px;
+  width: 1000px;
+  margin-left: 270px;
+  margin-top: 10px;
  }
 .over_mij h2 { 
-width: 1000px;
-margin-left: 280px;
-margin-top: 50px;
+  width: 1000px;
+  margin-left: 270px;
+  margin-top: 50px;
  }
-}
+ .contact-formulier{
+  width: 1000px;
+  margin-left: 270px;
+ }
