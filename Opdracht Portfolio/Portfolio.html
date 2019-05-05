@@ -18,27 +18,38 @@
   <div class="background">
   <div>
   <img class="logo" src="naam.png" alt="logo">
-  
-  <nav>
-      <ul>
-        <li><a href='Portfolio.html'>HOME</a></li>
-
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">OVER MIJZELF &#x2BC6;</a>
-              <div class="dropdown-content">
-              <a href="Over_mij.html">OVER MIJZELF</a>
-              <a href="Opleiding.html">OPLEIDINGEN</a>
-            </div>
-        </li>
-
-        <li><a href="Photo_Gallery.html">PHOTO GALLERY</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-  </nav>
-  </div> 
-</head>
-
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="navbar">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="Portfolio.html"><p>HOME</p> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <p>OVER MIJ</p>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="Over_mij.html"><p>OVER MIJ</p></a>
+          <a class="dropdown-item" href="Opleiding.html"><p>OPLEIDINGEN</p></a>
+          <div class="dropdown-divider"></div>
+          <li class="nav-item">
+        <a class="nav-link" href="Photo_Gallery.html"><p>PHOTO GALLERY</p></a>
+          </li>
+          <li class="nav-item">
+        <a class="nav-link" href="contact.html"><p>CONTACT</p></a>
+          </li>
+        </div>
+      </li>
+    </ul>  
+  </div>
+</nav>
+</div>
 <div class="container_slide">
 <div id="demo" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
