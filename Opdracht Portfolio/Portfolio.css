@@ -1,4 +1,15 @@
+.toggler{
+  background-image: url("background_nav.png");
+}
+.navbar{
+  width: 100%;
+  margin-bottom: 0px;
+  background-color: #222931 ;
+} 
 
+.navbar p { 
+color: black;
+ }
 .background{
     background-image: url("background.jpg");
     z-index: 2;
@@ -6,7 +17,7 @@
 .logo{ 
     width: 280px;
     padding-left: auto;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
 }
 .carousel-inner img {
     width: 100%;
@@ -15,8 +26,6 @@
 
 ul.breadcrumb {
   list-style: none;
-
-
   margin-left: auto;
   padding-top: 10px;
   width: auto;
@@ -88,6 +97,7 @@ li{
  .container_slide {
     margin-left: auto;
     margin-bottom: 0px;
+    margin-top: 0px;
  }
  .introductie img {
     width: 280px;
@@ -177,6 +187,21 @@ span#Over_mij-button {
 }
 
 span#Over_mij-button:hover {
+    background-color: #222931;
+    color: white;
+    transition: .5s;
+} 
+span#Over_mij-button1 {
+    margin-top: 40px;
+    font-size-top: 12px;
+    background-color: #222931 ;
+    margin-left: auto;
+    padding: 15px;
+    color: white;
+    
+}
+
+span#Over_mij-button1:hover {
     background-color: #222931;
     color: white;
     transition: .5s;
@@ -298,23 +323,38 @@ margin-top: 50px;
 
 @media screen and (min-width: 64em) {
 
+
 .navbar{
   width: 1000px;
   margin-left: 270px;
-  margin-bottom: 0px;
+  height: 50px;
+  padding-bottom: 0px;
+  background-color: #222931;
 } 
+.navbar p{
+  color:black;
 
-.navbar p { 
-color: black;
+}
+.dropdown-item p{
+   color: black;
+   width:100px;
+}
+.navbar1 p { 
+color: white;
  }
-
- .background{
+.navigation{
+  background-color: #222931;
+} 
+.background{
     background-image: url("background.jpg");
     z-index: 2;
 }
 .logo{ 
     padding-left: 270px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
+    width:280px;
+    height:0px;
+    position: absolute;
 }
 .carousel-inner img {
     width: 1000px;
@@ -355,10 +395,6 @@ ul.breadcrumb li a:hover {
   background-color: #222931;
   opacity:none;
 }
-
-
-
-
 .title{ 
     padding-top: 20px;
     margin-left: 650px;
@@ -383,12 +419,13 @@ ul.breadcrumb li a:hover {
 }
  .carousel-inner {
     margin-left: 17px;
-    margin-top: 52px;
+    margin-top: 0px;
  }
 
  .container_slide {
     margin-left: 253px;
     margin-bottom: 0px;
+    margin-top: 0px;
  }
  .introductie img {
     width: 400px;
@@ -563,3 +600,18 @@ span#Over_mij-button:hover {
   width: 1000px;
   margin-left: 270px;
  }
+ span#Over_mij-button1 {
+    margin-top: 40px;
+    font-size-top: 12px;
+    background-color: #222931 ;
+    margin-left: auto;
+    padding: 15px;
+    color: white;
+    
+}
+
+span#Over_mij-button1:hover {
+    background-color: #222931;
+    color: white;
+    transition: .5s;
+} 
